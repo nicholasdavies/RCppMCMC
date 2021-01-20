@@ -1,0 +1,24 @@
+Package: RCppMCMC
+Type: Package
+Title: RCppMCMC
+Version: 0.1.0
+Authors@R: c(
+    person("Nicholas G.", "Davies", email = "nicholas.davies@lshtm.ac.uk", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-1740-1412"))
+    )
+Description: RCppMCMC
+Depends: R (>= 3.1.0)
+Imports:
+    Rcpp,
+    RcppGSL,
+    stringr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+LinkingTo: 
+    Rcpp,
+    RcppGSL
